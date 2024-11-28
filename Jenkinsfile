@@ -41,6 +41,12 @@ pipeline {
           }
         }
 
+        stage('teststage') {
+          steps {
+            sh 'ls -al'
+          }
+        }
+
       }
     }
 
